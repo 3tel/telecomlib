@@ -6,7 +6,7 @@ from telecomlib import __version__
 def run():
     cur_time = ctime()
     text = f"""
-    # wetel
+    # telecom lib
 
     version {__version__} ({cur_time} +0800)
     """

@@ -6,7 +6,5 @@ from telecomlib import star
 
 __all__ = [
     "__version__",
-    "shell",
-    "ip_tools",
-    "star"
+    "shell"
 ]
