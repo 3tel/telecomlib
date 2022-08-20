@@ -8,7 +8,7 @@ AUTHOR = "3tel.net"
 EMAIL = "3telnet@gmail.com"
 URL = "https://3tel.net"
 LICENSE = "MIT License"
-DESCRIPTION = "Some tools about telecomlib."
+DESCRIPTION = "Some tools about telecom."
 
 if sys.version_info < (3, 6, 0):
     raise RuntimeError(f"{NAME} requires Python >=3.6.0, but yours is {sys.version}!")
@@ -49,11 +49,11 @@ if __name__ == "__main__":
         long_description_content_type="text/markdown",
         entry_points={
             "console_scripts": [
-                "package_name=package_name.shell:run"
+                "telecomlib=telecomlib.shell:run"
             ]
         },
         package_data={
-            "package_name": ["src/*.txt"]
+            "telecomlib": ["src/*.txt"]
         },
         zip_safe=True,
         classifiers=[

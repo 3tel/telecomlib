@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 .pypirc
-.idea/
-.DS_Store/
+.idea
+.DS_Store

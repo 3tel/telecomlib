@@ -1,6 +1,7 @@
-from telecomlib.getip.getip import ipv4,ipv6
+from telecomlib.getip.getip import v4, v6, info
 
 __all__ = [
-    'ipv4',
-    'ipv6'
+    'v4',
+    'v6',
+    'info'
 ]
